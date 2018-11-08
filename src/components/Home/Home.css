@@ -1,0 +1,418 @@
+
+
+  h2.trang  {
+      letter-spacing: 10px;
+      /* font-family: 'Rock Salt', cursive; */
+      font-family: 'Oswald', sans-serif;
+      font-weight: bold;
+      font-size: 100px;
+      margin-left: -23px;
+      margin-top: 140px;
+      opacity: 0.7;
+      color: white;
+      filter: drop-shadow(9px 9px 9px rgba(0,0,0,0.1));
+
+
+  }
+
+
+h4.front {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 70px;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    color: antiquewhite;
+    /* opacity: 0.9; */
+    margin-top: 1%;
+    filter: drop-shadow(9px 9px 9px rgba(0,0,0,0.1));
+    margin-left: -30px;
+ 
+
+    
+}
+
+
+  p.light.center-align {
+    /* font-family: 'Dawning of a New Day', cursive; */
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: 'Homemade Apple', cursive;
+    /* margin-top: 20px; */
+    color: white;
+    margin-right: -200px;
+    filter: drop-shadow(9px 9px 9px rgba(0,0,0,0.1));
+
+   
+
+
+  }
+
+
+  h5.center {
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: grey;
+    font-family: 'Oswald', sans-serif;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* newparallax */
+
+
+.wrapper {
+    /* The height needs to be set to a fixed value for the effect to work.
+     * 100vh is the full height of the viewport. */
+    height: 100vh;
+    /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
+    overflow-x: hidden;
+    /* Enable scrolling on the page. */
+    overflow-y: auto;
+    /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
+    perspective: 2px;
+  }
+  
+  .section {
+
+    position: relative;
+    height:100vh;
+  
+    /* For text formatting. */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: -30px;
+    /* text-shadow: 0 0 5px #000; */
+  }
+  
+  .parallax::after {
+    /* Display and position the pseudo-element */
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  
+    /* Move the pseudo-element back away from the camera,
+     * then scale it back up to fill the viewport.
+     * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
+    transform: translateZ(-1px) scale(1.5);
+    /* Force the background image to fill the whole element. */
+    background-size: 100%;
+    /* Keep the image from overlapping sibling elements. */
+    z-index: -1;
+  }
+  
+  /* The styling for the static div. */
+  .staticme {
+    background: white;
+    opacity: 0.9;
+    height: 50vh;
+
+  }
+
+  .staticquote {
+    background: white;
+    opacity: 0.9;
+    height: 25vh;
+    margin-top: 0px;
+
+  }
+
+  .staticprojects {
+    background: white;
+    opacity: 0.96;
+    margin-top: -350px;
+    height: 100vh;
+
+  }
+
+  /* .bg3 {
+    height: 100vh;
+    margin-top: -100px;
+    height: 60vh;
+
+  } */
+  
+  /* .staticwater {
+    background-image: url('../../images/water.jpg');
+    height: 20vh;
+
+  } */
+  .staticfooter {
+      height: 20vh;
+       /* background-color: slategrey; */
+       background-image: url('../../images/water.jpg');
+       -webkit-filter: brightness(85%);
+       
+
+    
+  }
+
+  /* Sets the actual background images to adorable kitties. This part is crucial. */
+  .bg1::after {
+    background-image: url('../../images/cp1.jpg');
+    -webkit-filter: brightness(85%);
+  }
+  
+  .bg2::after {
+    background-image: url('../../images/half.jpg');
+    -webkit-filter: brightness(88%);
+    margin-top: -200px;
+  }
+  
+  .bg3::after {
+    background-image: url('../../images/water.jpg');
+    -webkit-filter: brightness(85%);
+    
+    
+
+  }
+
+
+
+
+
+
+
+/* new */
+
+
+
+
+
+.medium.material-icons {
+    color: rosybrown;
+
+}
+ 
+  .light {
+      font-size: 13px;
+      color: gray;
+      margin-top: 20px;
+      margin-right: 10px;      
+   
+  }
+
+
+
+
+
+h5.self {
+    font-family: 'Homemade Apple', cursive;
+    line-height: 40px;
+    color: rosybrown;
+    font-weight: bold;
+
+
+}
+
+
+
+/* standout words */
+
+.hook {
+    color: rgba(224, 112, 7, 0.863);
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.happy {
+    font-size: 13px;
+    font-family: 'Homemade Apple', cursive;
+    color: slategrey;
+    letter-spacing: 1px;
+}
+
+.outlet {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 13px;
+    color: rosybrown;
+}
+
+.inspired {
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.eating {
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rosybrown;
+
+}
+
+
+
+/* proj pictures */
+
+.lotspot {
+    width: 100%;
+    padding: 5px;
+}
+
+.lolg2g {
+    width: 100%;
+    padding: 5px;
+
+}
+.pokemon {
+    width: 100%;
+    padding: 5px;
+
+}
+
+.ontap {
+    width: 100%;
+    padding: 5px;
+
+}
+
+
+
+
+/* carousel */
+
+div.carousel.slide { 
+     width: 70%;
+    height: 70%; 
+    margin-bottom: 100px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    
+
+}
+ 
+
+
+p.carouselcap {
+    background: rgba(66, 66, 82, 0.5);
+    font-size: 12px;
+    margin-bottom: 1px;
+    
+}
+.cardcarousel {
+    height: 60%;
+    width: 60%;
+    
+}
+
+.card-image-carousel {
+    height: 60%;
+    width: 60%;
+}
+
+
+
+
+
+
+/* PROJECTS */
+
+.projects {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+      font-weight: bold;
+      font-size: 60px;
+      color:rosybrown;
+      letter-spacing: 18px;
+      /* text-shadow:
+      2px 2px 0 rgb(24, 26, 29),
+    -1px -1px 0 rgb(24, 26, 29),  
+     1px -1px 0 rgb(24, 26, 29),
+     -1px 1px 0 rgb(24, 26, 29),
+      1px 1px 0 rgb(24, 26, 29), */
+      /* text-shadow:
+    2px 2px 0 #3E333F,
+  -1px -1px 0 #3E333F,
+   1px -1px 0 #3E333F,
+   -1px 1px 0 #3E333F,
+    1px 1px 0 #3E333F; */
+    margin-top: 80px;
+
+      
+}
+
+/* .card {
+    width: 80%;
+    padding-right: 10px;
+} */
+
+/* normal card */
+
+
+/* 
+.card {
+    height: 370px;
+    width: 500px;
+    padding: 10px;
+   
+
+} */
+
+/* 
+.card-image {
+   
+}
+
+p.cardcon {
+    font-size: 12px;
+}
+
+
+
+.cp1 {
+    z-index: -1;
+    width: 120%;
+}
+
+.col-m4-s12 {
+    margin-right: -20px;
+} */
+
+
+/* footer  */
+.page-footer {
+    padding-bottom: -2px;
+    padding-top: 8px;
+    background-color: slategray;
+
+}
+
+.icon {
+    padding-right: 8px;
+    padding-left: 8px;
+    align-content: center;
+    margin-top: 50px; 
+    
+
+}
+
+
+
+.copyright {
+    color: white;
+    margin-top: 8px;
+    font-size: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 2px;
+
+}
+
+.footicon {
+    margin-top: 50px;
+}
