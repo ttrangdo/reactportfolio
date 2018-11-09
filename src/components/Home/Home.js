@@ -39,9 +39,26 @@ class Home extends Component {
         return (
             <div>
                 <main class="wrapper">
+               
                     <section className="section parallax bg1">
+                    <header className= "navhead">
+                        <div className= "container right-align">
+                            <a href={resume}><img className= "footicon" src={file} alt="Resume" target="_blank" className="headicon" /> </a>
+
+                            <a href="mailto:ttrangdo3@gmail.com" target="_top" className="icon"><img className= "headicon" src={email} /> </a>
+
+
+                            <a href="https://www.linkedin.com/in/ttrangdo/" target="_blank" className="icon"><img className= "headicon" src={li} /></a>
+
+
+                            <a href="https://github.com/ttrangdo" target="_blank" className="icon"><img className= "headicon" src={git} /></a>
+
+                            </div>  
+                            </header> 
+
                     <div className="container">
-                        <div className="row">
+                        <div className="row">  
+
                             <div className="col s12 grey-text">
                             
                                 <h2 className="trang">TRANG DO</h2>
@@ -50,6 +67,7 @@ class Home extends Component {
                                     welcome to my creative space.
         </p>
                                 {/* <a class="waves-effect waves-light btn-large teal lighten-2">Get Started</a> */}
+                                
                             </div>
                         </div>
                     </div>

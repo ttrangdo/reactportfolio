@@ -1,12 +1,29 @@
 
+  .headicon {
+    z-index: 1;
+    margin-top: -690px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 30px;
 
-  h2.trang  {
+
+}
+
+.navhead {
+    width: 600px;
+    padding: 20px;
+    padding-top: 50px;
+
+
+}
+  
+h2.trang  {
       letter-spacing: 10px;
       /* font-family: 'Rock Salt', cursive; */
       font-family: 'Oswald', sans-serif;
       font-weight: bold;
       font-size: 100px;
-      margin-left: -23px;
+      margin-left: -340px;
       margin-top: 140px;
       opacity: 0.7;
       color: white;
@@ -21,11 +38,12 @@ h4.front {
     font-size: 70px;
     font-weight: bolder;
     letter-spacing: 4px;
+    width: 1000px;
     color: antiquewhite;
     /* opacity: 0.9; */
     margin-top: 1%;
     filter: drop-shadow(9px 9px 9px rgba(0,0,0,0.1));
-    margin-left: -30px;
+    margin-left: -380px;
  
 
     
@@ -39,7 +57,7 @@ h4.front {
     font-family: 'Homemade Apple', cursive;
     /* margin-top: 20px; */
     color: white;
-    margin-right: -200px;
+    margin-right: 170px;
     filter: drop-shadow(9px 9px 9px rgba(0,0,0,0.1));
 
    
@@ -118,14 +136,14 @@ h4.front {
   .staticme {
     background: white;
     opacity: 0.9;
-    height: 50vh;
+    height: 60vh;
 
   }
 
   .staticquote {
     background: white;
     opacity: 0.9;
-    height: 25vh;
+    height: 20vh;
     margin-top: 0px;
 
   }
