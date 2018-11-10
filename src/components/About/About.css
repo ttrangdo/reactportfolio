@@ -1,0 +1,61 @@
+
+
+.medium.material-icons {
+    color: rosybrown;
+
+}
+ 
+  .light {
+      font-size: 13px;
+      color: gray;
+      margin-top: 20px;
+      margin-right: 10px;      
+   
+  }
+
+
+h5.self {
+    font-family: 'Homemade Apple', cursive;
+    line-height: 40px;
+    color: rosybrown;
+    font-weight: bold;
+
+
+}
+
+
+
+/* standout words */
+
+.hook {
+    color: rgba(224, 112, 7, 0.863);
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.happy {
+    font-size: 13px;
+    font-family: 'Homemade Apple', cursive;
+    color: slategrey;
+    letter-spacing: 1px;
+}
+
+.outlet {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 13px;
+    color: rosybrown;
+}
+
+.inspired {
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.eating {
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rosybrown;
+
+} 

@@ -1,0 +1,69 @@
+
+/* proj pictures */
+
+.lotspot {
+    width: 100%;
+    padding: 5px;
+}
+
+.lolg2g {
+    width: 100%;
+    padding: 5px;
+
+}
+.pokemon {
+    width: 100%;
+    padding: 5px;
+
+}
+
+.ontap {
+    width: 100%;
+    padding: 5px;
+
+}
+
+
+/* carousel */
+
+div.carousel.slide { 
+     width: 70%;
+    height: 70%; 
+    margin-bottom: 100px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    
+}
+ 
+
+p.carouselcap {
+    background: rgba(66, 66, 82, 0.5);
+    font-size: 12px;
+    margin-bottom: 1px;
+    
+}
+
+.cardcarousel {
+    height: 60%;
+    width: 60%;
+    
+}
+
+.card-image-carousel {
+    height: 60%;
+    width: 60%;
+}
+
+
+/* PROJECTS */
+
+.projects {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color:rosybrown;
+    letter-spacing: 18px;
+    margin-top: 80px;
+
+      
+}

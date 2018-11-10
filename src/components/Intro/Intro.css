@@ -1,0 +1,61 @@
+
+h2.trang  {
+      letter-spacing: 10px;
+      /* font-family: 'Rock Salt', cursive; */
+      font-family: 'Oswald', sans-serif;
+      font-weight: bold;
+      font-size: 100px;
+      margin-left: -550px;
+      margin-top: 140px;
+      opacity: 0.7;
+      color: white;
+      filter: drop-shadow(9px 9px 9px rgba(0,0,0,0.1));
+
+
+  }
+
+
+h4.front {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 70px;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    width: 1000px;
+    color: antiquewhite;
+    /* opacity: 0.9; */
+    margin-top: 1%;
+    filter: drop-shadow(9px 9px 9px rgba(0,0,0,0.1));
+    margin-left: -580px;
+ 
+
+    
+}
+
+
+  p.light.center-align {
+    /* font-family: 'Dawning of a New Day', cursive; */
+    font-size: 25px;
+    letter-spacing: 3px;
+    width: 600px;
+    font-family: 'Homemade Apple', cursive;
+    /* margin-top: 20px; */
+    color: white;
+    margin-right: 160px;
+    filter: drop-shadow(9px 9px 9px rgba(0,0,0,0.1));
+
+   
+
+
+  }
+
+
+  h5.center {
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: grey;
+    font-family: 'Oswald', sans-serif;
+
+
+
+}
+
